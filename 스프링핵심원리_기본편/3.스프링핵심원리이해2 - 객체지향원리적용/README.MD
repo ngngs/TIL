@@ -35,3 +35,10 @@
 `Ken Schwaber`
 `Jeff Sutherland`
 `Dave Thomas`
+
+
+## 인텔리제이 테스트 만들기
+[윈도우 기준] CTRL + SHIFT + T
+
+
+
