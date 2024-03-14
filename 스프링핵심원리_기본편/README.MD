@@ -16,3 +16,6 @@
 - (1) 스프링 기본 기능 학습
 - (2) 스프링 본질 이해
 - (3) 객체 지향 설계를 고민하는 개발자로 성장
+
+## 결과물!!
+https://github.com/ngngs/OrderWithDiscount
