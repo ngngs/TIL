@@ -45,7 +45,7 @@
 - (1) 우리는 역할과 구현을 충실하게 분리했다. OK
 - (2) 다형성도 활용하고, 인터페이스와 구현 객체를 분리했다. OK
 - (3) OCP, DIP 같은 객체지향 설계 원칙을 충실히 준수했다 -> 그렇게 보이지만 사실은 아니다.
-- OrderServiceImpl은 인터페이스(DiscountPolicy), 구현체(FixDiscountPolicy) 모두에게 의존한다.
-- 지금 코드는 기능을 확장해서 변경하면, 클라이언트 코드에 영향을 준다! 따라서 OCP를 위반한다.
+- OrderServiceImpl은 인터페이스(DiscountPolicy), 구현체(FixDiscountPolicy) 모두에게 의존한다. (DIP위반)
+- 지금 코드는 기능을 확장해서 변경하면, 클라이언트 코드에 영향을 준다. (OCP 위반)
 
 ![6](https://github.com/ngngs/TIL/assets/47618270/6587b7d0-dd20-4c6e-add7-fe8f87cc5f8c)
