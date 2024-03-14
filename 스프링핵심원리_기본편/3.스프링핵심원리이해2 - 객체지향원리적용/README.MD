@@ -18,20 +18,20 @@
 이 말은, 왼쪽에 있는 것들도 가치가 있지만,
 우리는 오른쪽에 있는 것들에 더 높은 가치를 둔다는 것이다.
 
-Kent Beck
-Mike Beedle
-Arie van Bennekum
-Alistair Cockburn
-Ward Cunningham
-Martin Fowler
-James Grenning
-Jim Highsmith
-Andrew Hunt
-Ron Jeffries
-Jon Kern
-Brian Marick
-Robert C. Martin
-Steve Mellor
-Ken Schwaber
-Jeff Sutherland
-Dave Thomas
+`Kent Beck`
+`Mike Beedle`
+`Arie van Bennekum`
+`Alistair Cockburn`
+`Ward Cunningham`
+`Martin Fowler`
+`James Grenning`
+`Jim Highsmith`
+`Andrew Hunt`
+`Ron Jeffries`
+`Jon Kern`
+`Brian Marick`
+`Robert C. Martin`
+`Steve Mellor`
+`Ken Schwaber`
+`Jeff Sutherland`
+`Dave Thomas`
