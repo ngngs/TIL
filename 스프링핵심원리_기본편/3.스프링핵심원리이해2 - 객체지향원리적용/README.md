@@ -42,10 +42,39 @@
 
 
 # 새로운 할인 정책 적용 시 발생하는 문제
-- (1) 우리는 역할과 구현을 충실하게 분리했다. OK
-- (2) 다형성도 활용하고, 인터페이스와 구현 객체를 분리했다. OK
-- (3) OCP, DIP 같은 객체지향 설계 원칙을 충실히 준수했다 -> 그렇게 보이지만 사실은 아니다.
 - OrderServiceImpl은 인터페이스(DiscountPolicy), 구현체(FixDiscountPolicy) 모두에게 의존한다. (DIP위반)
 - 지금 코드는 기능을 확장해서 변경하면, 클라이언트 코드에 영향을 준다. (OCP 위반)
 
 ![6](https://github.com/ngngs/TIL/assets/47618270/6587b7d0-dd20-4c6e-add7-fe8f87cc5f8c)
+
+# 해결방안
+- OrderServiceImpl이 인터페이스만 바라보면 된다.
+```java
+    // private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
+    private DiscountPolicy discountPolicy;
+```
+- 이렇게 DIP는 지킬 수 있지만, 코드 실행시 NPE가 발생한다
+- 해결방안 : 누군가가 클라이언트인 OrderServiceImpl 에 DiscountPolicy 의 구현 객체를 대신 생성하고 주입해주어야 한다.
+
+## 관심사의 분리
+- 애플리케이션은 하나의 공연이다. 각각의 인터페이스를 배역이라 생각하자.
+- 로미오와 줄리엣을 누가 할지 정하는 건 배우가 아니다. 이전 코드는 마치 로미오 역할(인터페이스)을 하는 배우가 줄리엣 역할을 하는 여자 주인공도 섭외하는 것과 같다. 즉, 한 인터페이스에게 `다양한 책임`이 주어진다
+
+## AppConfig 등장
+- 애플리케이션 전체 동작 방식을 구성(config)하기 위해, `구현 객체를 생성`하고, `연결`하는 책임을 가진 별도의 설정 클래스 만들기
+
+- 기존에는 MemberServiceImpl이 Repository()까지 직접 만들어 주었다면,
+```java
+public class MemberServiceImpl implements MemberService{
+
+    private final MemberRepository memberRepository = new MemoryMemberRepository();
+
+```
+- 이제는 AppConfig가 넣어준다. (`생성자주입`)
+```java
+    private final MemberRepository memberRepository;
+
+    public MemberServiceImpl(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+```
