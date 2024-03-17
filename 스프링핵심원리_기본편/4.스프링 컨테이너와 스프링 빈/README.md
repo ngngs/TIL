@@ -14,5 +14,5 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 ![image](https://github.com/ngngs/TIL/assets/47618270/bf7825a6-77ff-4c38-a8e9-1a176363c6b9)
 ![image](https://github.com/ngngs/TIL/assets/47618270/db86a9e1-93cb-47b3-945c-c08d895434d9)
 
-- (3) 스프링은 [1]빈을 생성하는 단계 [2]의존관계를 주입하는 단계가 나누어져 있다.
+- (3) 스프링은 1.빈을 생성하는 단계, 2.의존관계를 주입하는 단계가 나누어져 있다.
 - (4) 만약, 자바 코드로 스프링 빈을 등록하면 생성자를 호출하면서 의존관계 주입도 한 번에 처리된다.
