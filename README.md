@@ -19,7 +19,7 @@
 
 ### Java
 - [리팩토링](https://github.com/ngngs/Refactoring_excercise)
-- 
+- 김영한의 실전 자바 - 중급 1편
   
 ### Spring
 - [김영한 로드맵 1 : 스프링 핵심원리 기본편](https://github.com/ngngs/TIL/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8)
