@@ -14,6 +14,9 @@
 - [코딩인터뷰 완전분석](https://velog.io/@ngngs/%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%8A%94-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%96%B8%EC%96%B4%EB%A1%9C)
 - [운영체제 아주 쉬운 세가지 이야기](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=253271218)
 - [컴퓨터시스템](https://velog.io/@ngngs/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%8B%9C%EC%8A%A4%ED%85%9CCSAPP-1%EC%9E%A5)
+- [면접을 위한 CS전공지식노트](https://www.yes24.com/Product/Goods/108887922)
+- [모던자바스크립트DeepDive](https://www.yes24.com/Product/Goods/92742567)
+- [운영체제 아주 쉬운 세 가지 이야기](https://www.yes24.com/Product/Goods/93738334)
 - 이펙티브자바 (읽는중)
 - 헤드퍼스트 디자인 패턴 (정리중)
 
