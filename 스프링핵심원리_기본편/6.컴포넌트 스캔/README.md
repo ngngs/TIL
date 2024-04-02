@@ -7,7 +7,7 @@
 
 ## 스캔 방법
 - `@Component` 애노테이션이 붙은 클래스를 스캔해서 스프링 빈으로 등록
-- `@Configuration` 도 구현을 보면 @Component가 붙어 있다
+- `@Configuration` 도 인터페이스를 보면 @Component가 붙어 있다
 - `@Autowired`는 의존관계를 자동으로 주입해준다
 
 ```java
