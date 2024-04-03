@@ -79,10 +79,43 @@ public static void main(String[] args){
 ## toString()을 유용하게 사용하기
 - toString()은 클래스 정보와 참조값만 제공하기 때문에 객체의 정보를 더 알기 어렵다
 - 보통 오버라이딩을 해서 유용한 정보를 제공하게 한다
-
+- getter and setter 처럼 toString()도 IDE가 만들어줌
 ```java
 @Override
 public String toString(){
     return "dogName = " + dog + "/" + "age = " + age;
 }
 ```
+- 만약, 오버라이딩을 해서 참조값을 알 수 없는 상황이라면, 다음을 사용하면 된다
+```java
+String refValue = Integer.toHexString(System.identityHashCode(dog1));
+System.out.println("refValue = " + refValue);
+```
+
+------
+# Object와 OCP
+
+## 구체적인 것에 의존
+- Object는 구체적인 타입(Car, Dog)을 사용한다
+- 구체적인 클래스가 10개로 늘어나면 메서드도 10개로 늘어난다
+- 이렇게 클래스가 구체적인 특정 클래스를 사용하는 것을 `의존한다`고 표현한다
+
+## 추상적인 것에 의존
+- ObjectPrinter 클래스는 Car, Dog와 같은 구체적인 클래스를 사용하지 않는다
+- 추상적인 `Object` 클래스를 사용하며, 이를 추상적인 것에 의존한다고 표현한다
+- 여기서, `추상`은 조금 더 상위 개념의 느낌?을 의미하는 것 같음
+![image](https://github.com/ngngs/TIL/assets/47618270/2579e873-ba20-4487-918a-1cc813a2c504)
+
+
+-----
+
+## System.out.println()
+- sout 메서드도 Object 매개변수를 사용하고 내부에서 toString()을 호출한다
+- 따라서 sout을 사용하면, 세상의 모든 객체의 정보를 편리하게 출력할 수 있다
+
+-----
+
+## equals() - 1.동일성과 동등성
+- 자바에서 두 객체가 같다는 표현은 2가지로 분리한다
+- (1) 동일성(Identity) : `==` 연산자를 사용해서 두 객체의 참조가 동일한 객체를 가리키고 있는지 확인
+- (2) 동등성(Equality) : `equals()` 메서드를 사용하여 두 객체가 논리적으로 동등한지 확인
