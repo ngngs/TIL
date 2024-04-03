@@ -117,5 +117,30 @@ System.out.println("refValue = " + refValue);
 
 ## equals() - 1.동일성과 동등성
 - 자바에서 두 객체가 같다는 표현은 2가지로 분리한다
-(1) 동일성(Identity) : `==` 연산자를 사용해서 두 객체의 참조가 동일한 객체를 가리키고 있는지 확인
-(2) 동등성(Equality) : `equals()` 메서드를 사용하여 두 객체가 논리적으로 동등한지 확인
+- (1) 동일성(Identity) : `==` 연산자를 사용해서 두 객체의 참조가 동일한 객체를 가리키고 있는지 확인
+- (2) 동등성(Equality) : `equals()` 메서드를 사용하여 두 객체가 논리적으로 동등한지 확인
+```java
+// 물리적으로 다른 메모리에 있는 다른 객체지만, 논리적으로 같은 회원
+User a = new User("id-100") // 참조 x001
+User b = new User("id-100") // 참조 x002
+```
+
+### 오브젝트가 기본으로 제공하는 equals()
+- 기본적으로 equals()는 `==`으로 동일성 비교를 제공한다
+- equals() 메서드를 재정의해야한다
+```java
+    public boolean equals(Object obj) {
+        return (this == obj);
+    }
+```
+
+## equals() - 2.구현
+- 다운캐스팅을 해줘야한다
+- String은 `==`이 아닌 `equals`를 사용해야한다
+```java
+ @Override
+ public boolean equals(Object obj) {
+ UserV2 user = (UserV2) obj;
+ return id.equals(user.id);
+}
+```
