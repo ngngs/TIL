@@ -28,7 +28,7 @@
 
 ### DB
 - 오라클 start with ~ connect (작성예정)
-- 데이터 마이그레이션하기(인텔리제이 - Export(SQL insert), import)
+- 데이터 마이그레이션하기(인텔리제이 - Copy Table to..)
 
 ### Web
 - 
