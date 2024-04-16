@@ -32,7 +32,7 @@
 - 데이터 마이그레이션하기(인텔리제이 - Copy Table to..)
 - 오라클 object types, collection types
 - 오라클 compile을 하는 이유..?
-- 
+- Mybatis에서 주석을 `--` 으로 사용할 경우 주석 안에 파라미터 {} 존재 시 에러 발생. -> 반드시 주석은 <!-- --> 을 사용해야 함
 ### Web
 - 
 
