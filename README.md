@@ -51,6 +51,9 @@
 ### IDE
 - [인텔리제이 디버깅](https://github.com/jojoldu/blog-code/tree/master/intellij-debugging)
 
+### 네트워크
+- 
+
 ## 👩‍🏫👨‍🏫 컨퍼런스
 - [Go를 모르는 취준생의 GopherCon Korea 2023 오프라인 참석 후기](https://velog.io/@ngngs/%EC%B7%A8%EC%A4%80%EC%83%9D%EC%9D%98-GopherCon-Korea-2023-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8-%EC%B0%B8%EC%84%9D-%ED%9B%84%EA%B8%B0)
 - [제2회 카카오Tech Meet 짧은 후기](https://velog.io/@ngngs/%EC%A0%9C2%ED%9A%8C-%EC%B9%B4%EC%B9%B4%EC%98%A4-%ED%85%8C%ED%81%AC-%EB%B0%8B%EC%A7%A7%EC%9D%80%ED%9B%84%EA%B8%B0)
