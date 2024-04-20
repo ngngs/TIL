@@ -58,3 +58,42 @@
 - `@Autowired(required=false) : 자동 주입 대상이 없으면 수정자 메서드 자체가 호출이 안된다
 - `org.springframework.lang.@Nullable` : 자동 주입할 대상이 없으면 null이 입력된다
 - `Optional<>` : 자동 주입 대상이 없으면 `Optional.empty`가 입력된다
+
+### 에러 발생
+```java
+org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'hello.core.member.MemberRepository' available: expected single matching bean but found 2: memoryMemberRepository,memberRepository
+
+```
+- 스프링 부트 테스트 : 스프링에서 진행하는 통합 테스트
+- 원인 :  AppConfig 내 MemoryMemberRepository와 MemoryMemberRepository 클래스 둘 모두 빈으로 등록되어서 발생한 문제
+- 나와 같은 에러가 발생한 분들이 많아 해당 문제에 대해 영한킴이 직접 답변해주신 내용
+- 답변 : 스프링의 @ComponentScan이 중복 적용된 경우에는 excludeFilters가 적용되지 않습니다.
+- 예를 들어서 다음 com.example.app 패키지에 있는 AppBean을 중복으로 컴포넌트 스캔해볼께요.
+```java
+package com.example.app;
+
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class AppBean {
+
+}
+```
+그리고 2가지 컴포넌트 스캔이 있습니다.
+```java
+//@Component를 제외하고 스캔한다. AppBean은 스캔되지 않아야 한다.
+@ComponentScan(basePackages = "com.example.app", excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Component.class))
+//모든 빈을 스캔한다. AppBean이 스캔 되어야 한다.
+@ComponentScan(basePackages = "com.example.app")
+public class SpringScanApplication {
+}
+```
+- 이렇게 중복 정의된 경우 한곳에서 이미 스캔을 하도록 되어 있기 때문에 결과적으로 AppBean은 컴포넌트 스캔의 대상이 됩니다.
+- 그러면 이번 예제에서는 어떻게 된 것일까요?
+- CoreApplicationTests는 스프링 부트를 찾아서 실행하게 됩니다. 테스트 위에 @SpringBootTest라는 애노테이션이 보이실꺼에요.
+- 스프링 부트로 실행하게 되면 @SpringBootApplication 애노테이션이 있는 CoreApplication을 찾아서 설정 파일로 사용하게 됩니다.
+- 그런데 SpringBootApplication 내부에는 @ComponentScan 코드가 있습니다. 참고로 스프링 부트는 편리함을 위해 자동으로 컴포넌트 스캔을 제공합니다.
+- @ComponentScan은 별도의 코드를 제공하지 않으면 현재 클래스가 있는 패키지 부터 하위 패키지를 모두 컴포넌트 스캔합니다.
+- 따라서 @SpringBootApplication 애노테이션이 있는 곳의 패키지 부터 모든 빈들을 컴포넌트 스캔합니다.
+- 결과적으로 스프링 부트를 통해서 실행하는 경우 이미 @ComponentScan을 통해서 모든 빈들을 읽어버리기 때문에 AutoAppConfig의 컴포넌트 스캔의 excludeFilter 설정은 적용되지 않습니다.
