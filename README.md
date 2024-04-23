@@ -41,6 +41,7 @@
 
 ### Design Pattern
 - 싱글톤 패턴
+- 플라이웨이트 패턴
 
 ### Algorithm
 -
