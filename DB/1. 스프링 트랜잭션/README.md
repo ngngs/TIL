@@ -22,6 +22,7 @@
    </tx:attributes>
 </tx:advice>
 ```
+- 예를 들어, findById(), findByName() 등의 메소드에 모두 적용된다
 - <aop:pointcut>을 이용하여 실행되어 Catch해야 하는 Method를 지정한다
 - <tx:advice>를 통해서 각각에 대한 룰을 정의하고 있다
 - 이를 통해 별도의 트랜잭션 관련한 사항에 대해서 기술하지 않아도 트랜잭션관리가 된다
