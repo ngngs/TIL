@@ -22,6 +22,7 @@
 - [리팩토링](https://github.com/ngngs/Refactoring_excercise)
 - [김영한의 실전 자바 - 중급 1편](https://github.com/ngngs/TIL/tree/main/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98%20%EC%8B%A4%EC%A0%84%20%EC%9E%90%EB%B0%94%20-%20%EC%A4%91%EA%B8%891%ED%8E%B8)
 - 롬복 구현하기
+- [자바의 Virtual Thread](https://velog.io/write?id=4db60f04-7526-493f-8c8e-801913e94b95)
   
 ### Spring
 - [김영한 로드맵 1 : 스프링 핵심원리 기본편](https://github.com/ngngs/TIL/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8)
