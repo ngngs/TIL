@@ -24,7 +24,7 @@ System.out.println("b = " + b);
 ```
 - 내부 값이 변경되기 안되기 때문에 `final` 로 선언
 - 값을 변경할 수 있는 `setValue()`를 제거
-- 그냥 쉽게, 절대 값을 변경 못하게 만들면 불변 객체
+- 그냥 쉽게 설명하면, 절대 값을 변경 못하게 만드는게 불변 객체
 
 ```java
  ImmutableAddress a = new ImmutableAddress("서울");
