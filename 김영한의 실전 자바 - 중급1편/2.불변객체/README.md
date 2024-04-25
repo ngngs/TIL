@@ -55,7 +55,7 @@ public class ImmutableObj {
     }
 }
 ```
- - 스터디 질문 : 그렇다면 add를 할 때마다 객체가 새로 생성될텐데.. 기존 객체를 지우는 게 좋은 방법일지..?
+ - 스터디 질문 : 그렇다면 add를 할 때마다 객체가 새로 생성될텐데.. 기존 객체를 지우는 게 좋은 방법일지..? -> GC, 설계 나름
 
 ### withYear, withDate 등 with 관례
 - setValue와 같이 관례적으로 불변객체에서 사용하는 것이 `withValue`
