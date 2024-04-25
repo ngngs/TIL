@@ -166,4 +166,3 @@ public class LoopStringBuilderMain {
 ```java
 int result = adder.add(1).add(2).add(3);
 ```
-- 
