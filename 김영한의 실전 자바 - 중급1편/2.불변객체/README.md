@@ -4,7 +4,7 @@ b.setValue("부산");
 System.out.println("부산 -> b");
 System.out.println("a = " + a); // 사이드 이펙트 발생
 System.out.println("b = " + b);
-
+```
 ## 사이드 이펙트가 발생하는 이유
 - b의 값을 바꾸면서, a의 값까지 발생하는 문제가 발생했다
 - 객체를 공유하고, 공유된 객체의 값을 변경하기 때문에 발생한다
