@@ -97,3 +97,36 @@ public class SpringScanApplication {
 - @ComponentScan은 별도의 코드를 제공하지 않으면 현재 클래스가 있는 패키지 부터 하위 패키지를 모두 컴포넌트 스캔합니다.
 - 따라서 @SpringBootApplication 애노테이션이 있는 곳의 패키지 부터 모든 빈들을 컴포넌트 스캔합니다.
 - 결과적으로 스프링 부트를 통해서 실행하는 경우 이미 @ComponentScan을 통해서 모든 빈들을 읽어버리기 때문에 AutoAppConfig의 컴포넌트 스캔의 excludeFilter 설정은 적용되지 않습니다.
+
+## 롬복과 최신 트렌드
+- gradle에 롬복을 추가
+- `@RequiredArgsConstructor` 를 활용하여 기존 생성자를 대체하기
+```java
+// 기존코드
+@Component
+public class OrderServiceImpl implements OrderService{
+
+    @Autowired private MemberRepository memberRepository;
+    @Autowired private DiscountPolicy discountPolicy;
+
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        System.out.println("memberRepository =  " + memberRepository);
+        System.out.println("discountPolicy = " + discountPolicy);
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
+```
+```java
+// 생성자를 대체
+@Component
+@RequiredArgsConstructor // final이 붙은 값을 생성자로 만들어줌
+public class OrderServiceImpl implements OrderService{
+
+    private final MemberRepository memberRepository;
+    private final DiscountPolicy discountPolicy;
+}
+```
+
+### 생성자 요약
+- 생성자를 딱 1개 두고, `@Autowired`를 생략하는 방법을 사용
+- Lombok 라이브러리의 `@RequiredArgsConstructor` 함께 사용하면 더 깔끔해진다
