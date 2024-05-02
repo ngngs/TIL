@@ -30,14 +30,7 @@
 - Exception 발생 시 익셉션을 어떻게 처리하는지(sysException, bizException 핸들링 확인하기) -> @ExceptionHandler와 @ControllerAdvice 이해하기
 
 ### DB
-- 오라클 start with ~ connect (작성예정)
-- 데이터 마이그레이션하기(인텔리제이 - Copy Table to..)
-- 오라클 object types, collection types
-- 오라클 compile을 하는 이유..?
-- Mybatis에서 주석을 `--` 으로 사용할 경우 주석 안에 파라미터 {} 존재 시 에러 발생. -> 반드시 주석은 `<!-- -->` 을 사용해야 함
-- WHERE 1=1 이 위험한 이유 : SQL Injection 뿐만 아니라 1=1 아래 조건에서 null이 들어오더라도 항상 조회되는 문제가 있음 -> trim으로 해결하기 https://java119.tistory.com/103
-- 오라클 MView
-- 오라클 in~ 에는 해당 칼럼이 1000개 넘어갈 경우 ORA-01795 에러가 발생함. -> exsits 구문으로 바꿔줘야함
+- 
   
 ### Web
 - 
