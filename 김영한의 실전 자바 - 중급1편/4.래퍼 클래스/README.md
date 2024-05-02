@@ -177,4 +177,9 @@ Method[] methods = clazz.getDeclareMethods();
 ```java
 System.out.println("getenv= " + System.getenv()); // 환경 변수 읽기
 System.out.println("properties = " + System.getProperties()); // 자바 시스템 속성
+
+// 배열 고속 복사는 자바가 하는게 아닌 하드웨어에 넘겨서 빠르게 처리하는 방법
+char[] oArray = {'h', 'e', 'l'};
+char[] copyArray = new char[3];
+System.arraycopy(oArray, 0, copyArray, 0, oArray.length); // 배열을 고속으로 복사
 ```
