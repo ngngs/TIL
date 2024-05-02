@@ -30,7 +30,7 @@
 - Exception 발생 시 익셉션을 어떻게 처리하는지(sysException, bizException 핸들링 확인하기) -> @ExceptionHandler와 @ControllerAdvice 이해하기
 
 ### DB
-- 
+- [https://github.com](https://github.com/ngngs/TIL/tree/main/DB)
   
 ### Web
 - 
