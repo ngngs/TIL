@@ -183,3 +183,8 @@ char[] oArray = {'h', 'e', 'l'};
 char[] copyArray = new char[3];
 System.arraycopy(oArray, 0, copyArray, 0, oArray.length); // 배열을 고속으로 복사
 ```
+
+### 디비 결과값을 Integer로 받기 vs int로 받기
+- 쿼리 결과값이 null 일 경우, Integer로 받아야 npe가 발생하지 않는다.
+- int의 경우 무조건 npe가 발생한다
+- 그러나 Integer의 경우 null값임에도 intValue()로 사용하려하면 npe가 발생한다
