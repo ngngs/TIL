@@ -50,6 +50,7 @@
 -
 
 ### IDE
+- https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html
 - [인텔리제이 디버깅](https://github.com/jojoldu/blog-code/tree/master/intellij-debugging)
 
 ### 네트워크
