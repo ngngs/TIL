@@ -9,6 +9,6 @@
 - 기간 : 2024년 5월 11일(토) ~ 2024년 5월 18일(토) 1주
 - 대상 : [2024 React 개발 가이드 - Full Course (feat. Recoil)](https://www.youtube.com/watch?v=Yv5tSNr4h2c)
 
-### 추후 스터디 및 프로젝트 계획
+### 추후 스터디 및 프로젝트
 - [리액트 로드맵](https://roadmap.sh/react)
-- 개인 프로젝트 페이지 Deploy
+- 개인 프로젝트 페이지 Deploy (논의중)
