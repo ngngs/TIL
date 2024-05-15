@@ -27,3 +27,26 @@
 ## JDK8(java.time 패키지 등장)
 - Joda-time의 많은 기능을 표준 자바 플랫폼으로 가져왔다
 - `LocalDate`, `LocalTime`, `LocalDateTime` 등 클래스를 포함한다
+
+### 참고
+- 자바가 표준으로 제공했던 Date, Calendar는 사용성이 너무 떨어졌다
+- 결국, Joda-Time을 만든 개발자를 데려와서 `java.time` 이라는 새로운 자바 표준 날짜와 시간 라이브러리를 정의한다
+- 자바 표준 ORM 기술인 JPA도 비슷한 역사를 갖는다
+- 과거 자바 표준인 ORM이 너무 불편해서 누군가 하이버네이트라는 ORM 오픈 소스를 만들었고, 이 개발자를 데려와서 현재 자바 ORM 기술 표준인 JPA 를 만들었다
+
+## 자바 날짜와 시간 라이브러리 소개
+![image](https://github.com/ngngs/TIL/assets/47618270/5b5f7a78-5c48-4dfa-90ac-571ee50dfe92)
+- `*` : 초는 나노초 단위의 정밀도로 캡처된다(밀리초, 나노초 가능)
+- `**` : 이 클래스는 정보를 저장하지 않지만 이러한 단위로 시간을 제공하는 메서드가 있다
+- `***` : ZonedDateTime에 Period를 추가하면 서머타임 또는 기타 현지 시간 차이를 준수한다
+
+ 
+## LocalDate, LocalTime, LocalDateTime
+- LocalDate : 날짜만 표현할 때 사용(년, 월, 일)
+- LocalTime : 시간만 표현할 때 사용(시, 분, 초)
+- LocalDateTime : LocalDate와 LocalTime을 합한 개념
+
+### Local이 붙는 이유는 타임존이 적용되지 않기 때문!!!
+
+## ZonedDateTime, OffsetDateTime
+- ZonedDateTime : 시간대를 고려한 날짜와 시간을 표현할 때 사용
