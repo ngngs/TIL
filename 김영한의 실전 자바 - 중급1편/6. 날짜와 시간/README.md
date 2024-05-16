@@ -75,3 +75,34 @@
 - 1970년 1월 1일 0시 0분 0초(UTC 기준)를 기준으로 경과한 시간이다
 - Instant 내부에는 초 데이터만 들어있다(나노초 포함)
 - 즉, 날짜와 시간을 계산에 사용할 때는 사용하지 않는다
+
+### 참고 - Epoch 시간
+- 에포크 시간은 컴퓨터 시스템에서 시간을 나타내는 방법 중 하나
+- 시간대에 영향을 받지 않는 절대적인 시간 표현 방식
+- `Epoch`라는 뜻은 어떤 사건의 시작점을 뜻하는 용어다
+
+## Instant는 언제 사용할까?
+- 전 세계적인 시간 기준이 필요할 경우(로그 기록, 트랜잭션 타임스탬프, 서버 간의 시간 동기화)
+- 시간대 변환 없이 시간 계산이 필요할 경우
+- 데이터 저장 및 교환(데이터의 일관성을 유지하기 위해)
+
+
+# 날짜와 시간의 핵심 인터페이스
+
+## 특정 시점의 시간과 시간의 간격
+- 날짜와 시간은 특정 시점의 시간(시각)과 시간의 간격(기간)으로 나눌 수 있다
+- 특정 시점의 시간 : `Temporal(TemporalAccessor 포함)` 인터페이스 - `LocalDateTime`, `LocalDate`, `LocalTime` 등
+- 시간의 간격(기간) : `TemporalAmount` 인터페이스 - `Period`, `Duration` 등
+![image](https://github.com/ngngs/TIL/assets/47618270/7ff5b8bb-0ecc-4825-97fd-5bd31f081113)
+- Temporal : `TemporalAccessor`의 하위 인터페이스, 날짜와 시간을 조작하기 위한 기능 제공(readonly + write)
+- TemporalAccessor : 날짜와 시간을 읽기 위한 기본 인터페이스(readonly 느낌)
+- TemporalAmount : 시간의 간격(시간의 양)을 나타내며, 읽기 쓰기 모두 가능
+
+## 시간의 단위와 시간 필드
+- 시간의 단위를 뜻하는 `TemporalUnit`과 시간의 각 필드를 뜻하는 `TemporalField`
+![image](https://github.com/ngngs/TIL/assets/47618270/a006a638-500a-4278-9ecc-7e490b7d93b9)
+- TemporalUnit은 시간의 단위를 갖고 있는 Enum이다
+![image](https://github.com/ngngs/TIL/assets/47618270/80d8aed2-ab56-457b-9986-b8fab29be36f)
+- TemporalField는 연도, 월, 일, 시간과 같은 날짜와 시간의 특정 부분이다
+![image](https://github.com/ngngs/TIL/assets/47618270/17ad5870-7fdb-4a34-8725-1ffb53a23dfb)
+
