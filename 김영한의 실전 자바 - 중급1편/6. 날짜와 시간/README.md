@@ -49,4 +49,29 @@
 ### Local이 붙는 이유는 타임존이 적용되지 않기 때문!!!
 
 ## ZonedDateTime, OffsetDateTime
-- ZonedDateTime : 시간대를 고려한 날짜와 시간을 표현할 때 사용
+- ZonedDateTime : 시간대를 고려한 날짜와 시간을 표현할 때 사용, 여기에는 시간대를 표현하는 타임존이 포함
+- OffsetDateTime : 시간대를 고려한 날짜와 시간, 여기에는 타임존은 없고, UTC로부터의 시간대 차이인 고정된 오프셋만 포함
+
+
+## 기본 날짜와 시간 - LocalDateTime
+- 국내 애플리케이션 개발 시 사용
+- 모든 날짜 클래스는 `불변`이다. 변경이 발생할 경우 반드시 새로운 객체를 생성해서 반환값을 받자
+
+### 시간 비교는 isEquals() vs equals() ?
+- `isEquals()` : 다른 날짜와 시간적으로 동일한지 비교, 예를 들어 서울의 9시와 UTC 0시는 같다. true를 반환
+- `equals()` : 객체의 타입, 타임존 등등 모든 구성요소가 같아야 true를 반환한다. 서울의 9시와 UTC 0시는 시간적으로 같지만 false
+
+# ZonedDateTime - 타임존
+- 자바는 타임존을 `ZoneId` 클래스로 관리한다
+```java
+        for (String availableZoneId : ZoneId.getAvailableZoneIds()){
+            ZoneId zoneId = ZoneId.of(availableZoneId);
+            System.out.println(zoneId + " | " + zoneId.getRules());
+        }
+```
+
+# 기계 중심의 시간 - Instant
+- `Instant`는 UTC를 기준으로 하는, 시간의 한 지점을 나타낸다
+- 1970년 1월 1일 0시 0분 0초(UTC 기준)를 기준으로 경과한 시간이다
+- Instant 내부에는 초 데이터만 들어있다(나노초 포함)
+- 즉, 날짜와 시간을 계산에 사용할 때는 사용하지 않는다
