@@ -106,3 +106,20 @@
 - TemporalField는 연도, 월, 일, 시간과 같은 날짜와 시간의 특정 부분이다
 ![image](https://github.com/ngngs/TIL/assets/47618270/17ad5870-7fdb-4a34-8725-1ffb53a23dfb)
 
+## 날짜와 시간 문자열 파싱과 포맷팅
+- 포맷팅 : 날짜와 시간 데이터를 원하는 문자열로
+- 파싱 : 문자열을 날짜와 시간 데이터로 변경
+```java
+        // 포맷팅
+        LocalDate date = LocalDate.of(2024, 12, 31);
+        System.out.println("date = " + date);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy년 MM월 dd일");
+        String format = date.format(formatter);
+        System.out.println(format);
+
+        // 파싱
+        String input = "2923년 12월 03일";
+        LocalDate parseDate = LocalDate.parse(input, formatter);
+        System.out.println("그 날은 " + parseDate);
+```
+- 문자열 양식은 [다음 사이트](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#patterns)
