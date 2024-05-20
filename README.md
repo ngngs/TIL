@@ -31,6 +31,9 @@
 - XSSFilter, SessionFilter 처리 및 디버깅 화면에서 확인 가능한 "http-nio-18080-exec-3"@12,136 in group "main" : RUNNING은 스레드의 상태와 관련된 정보
 - http-nio-18080-exec-3는 스레드명, 12,136은 메모리 주소, "main" 그룹에 속한 스레드
 
+### 리눅스
+- 리눅스 명령어 통해 서버 올리기, 내리기
+
 ### DB
 - [DB한눈에 보기](https://github.com/ngngs/TIL/tree/main/DB)
   
