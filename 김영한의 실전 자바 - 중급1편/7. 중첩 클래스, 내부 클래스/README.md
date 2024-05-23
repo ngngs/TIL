@@ -66,7 +66,34 @@ class Outer {
 - 추가로, 패키지를 열었을 때 다른 곳에서 사용될 필요가 없는 중첩 클래스가 외부에 노출되지 않는 장점
 - (2) 캡슐화 : 중첩 클래스는 바깥 클래스의 private 멤버에 접근한다. 이렇게 해서 둘은 긴밀하게 연결되고, 불필요한 `public` 메소드가 제거된다
 
+```java
 
+class Scratch {
+    public static class scratch {
+
+        private static int outClassValue = 3;
+        private int outInstanceValue = 2;
+
+        static class Nested {
+            private int nestedInstanceValue = 1;
+            public void print() {
+
+                // 자신의 멤버에 접근
+                System.out.println(nestedInstanceValue);
+
+                // 바깥 클래스의 인스턴스 멤버에는 접근할 수 없다.
+                //System.out.println(outInstanceValue);
+
+                // 바깥 클래스의 클래스 멤버에는 접근할 수 있다. private도 접근 가능
+                System.out.println(NestedOuter.outClassValue);
+            }
+        }
+
+    }
+}
+```
+- `정적` 중첩 클래스는 정적이다. 앞에 static이 붙는다!
+- 정적 중첩클래스는 바깥 클래스의 인스턴스 멤버에는 접근할 수 없지만, 클래스 멤버에는 접근할 수 있다
 
 
 
