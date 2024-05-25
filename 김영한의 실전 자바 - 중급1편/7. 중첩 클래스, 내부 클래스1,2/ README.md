@@ -98,7 +98,7 @@ class Scratch {
 
 
 ## 지역 변수
-- 변수 캡처
+- [변수 캡처](https://kangworld.tistory.com/206)
 
 ## 익명클래스
 - 선언과 생성을 한번에 하고 싶다면 익명 클래스를 사용하자
