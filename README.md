@@ -30,6 +30,7 @@
 - Exception 발생 시 익셉션을 어떻게 처리하는지(sysException, bizException 핸들링 확인하기) -> @ExceptionHandler와 @ControllerAdvice 이해하기
 - XSSFilter, SessionFilter 처리 및 디버깅 화면에서 확인 가능한 "http-nio-18080-exec-3"@12,136 in group "main" : RUNNING은 스레드의 상태와 관련된 정보
 - http-nio-18080-exec-3는 스레드명, 12,136은 메모리 주소, "main" 그룹에 속한 스레드
+- @Service(경로) 를 살펴봐야 서비스 빈이 어디에 등록되었는 지 확인할 수 있음. 간혹 위치를 옮긴 파일들이 있어서 실제 경로와 다를 수 있음
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
