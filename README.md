@@ -15,8 +15,8 @@
 - [컴퓨터시스템](https://velog.io/@ngngs/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%8B%9C%EC%8A%A4%ED%85%9CCSAPP-1%EC%9E%A5)
 - [면접을 위한 CS전공지식노트](https://www.yes24.com/Product/Goods/108887922)
 - [운영체제 아주 쉬운 세 가지 이야기](https://www.yes24.com/Product/Goods/93738334)
-- 이펙티브자바 (읽는중)
-- 헤드퍼스트 디자인 패턴 (정리중)
+- 이펙티브자바
+- 헤드퍼스트 디자인 패턴
 
 ### Java
 - [리팩토링](https://github.com/ngngs/Refactoring_excercise)
