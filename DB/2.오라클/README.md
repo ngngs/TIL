@@ -9,3 +9,4 @@
 https://gibles-deepmind.tistory.com/entry/Oracle-SQL-JOIN%EC%8B%9C-WHERE-%EC%A0%88%EA%B3%BC-ON-%EC%A0%88%EC%9D%98-%EC%B0%A8%EC%9D%B4where-clause-vs-on-clause
 - <s>로컬에서는 잘되는데, 실 서버 올리고 되지 않는다면 (가능성은 낮지만) DB 세팅(드라이버 등)이 맞지 않을 수도 있으니 확인해보자</s> 그냥 반영 잘못 한 거 였음
 - https://blog.jetbrains.com/ko/datagrip/
+- 실수했던 부분 : Select test1, test2, test3 from TableA group by test1, test2, test3 인 코드를 보고 test4를 추가하는 과정에서 합산(sum)해야 할 test4를 group by에 넣어버림. 해당 문제로 join에서 다중행이 생성되어 버렸는데 문제 원인을 놓쳤음.. 해당 부분은 Sum(test4) 로 조회해주고 group by에서는 빼면 됨!
