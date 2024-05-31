@@ -34,6 +34,7 @@
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
+- tail -f : 실시간 로그 보기
 
 ### DB
 - [DB한눈에 보기](https://github.com/ngngs/TIL/tree/main/DB)
