@@ -7,3 +7,9 @@
 - `NetworkService` : `NetworkClient`를 사용해서 데이터를 전송, `NetworkClient`를 사용하려면 연결, 전송, 연결종료와 같은 복잡한 흐름을 제어해야 하는데 이런 부분을 `NetworkService`가 담당
 - `Main` : 사용자의 입력 받기
 - `NetworkClient` 사용 시 주의 사항 : `connect()`가 실패한 경우 `send()`를 호출하면 안된다 + 사용 후에는 반드시 `disconnect()`를 호출해서 연결을 해제해야한다
+
+## 오류 상황 만들기
+- 외부서버와 통신 시 다양한 문제 발생 : 연결 실패, 데이터 전송 실패 등
+- 연결 실패 : 사용자가 입력한 문자에 "error1"이 있으면 연결 실패 (오류 코드 : connectError)
+- 전송 실패 : 사용자가 입력한 문자에 "error2"가 있으면 데이터 전송 실패 (오류 코드 : sendError)
+- 
