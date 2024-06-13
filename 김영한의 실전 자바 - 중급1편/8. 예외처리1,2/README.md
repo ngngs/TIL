@@ -123,3 +123,9 @@ public String getErrorCode() {
     return errorCode;
 }
 ```
+
+```java
+ if (connectError) {
+     throw new NetworkClientExceptionV2("connectError", address + " 서버 연결 실패");
+    }
+```
