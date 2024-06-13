@@ -109,3 +109,17 @@ public class NetworkServiceV1_3 {
 # 예외 처리 실습
 
 ## 예외 처리 도입1 - 시작
+![image](https://github.com/ngngs/TIL/assets/47618270/6fad0bb3-a556-41a1-8dcf-9eafcb6f4096)
+- 기존 프로그램의 문제 : 정상 흐름과 예외 흐름이 섞여 있다. 예외 흐름이 더 많은 분량을 차지한다.
+```java
+public class NetworkClientExceptionV2 extends Exception {
+    private String errorCode;
+    public NetworkClientExceptionV2(String errorCode, String message) {
+        super(message);
+        this.errorCode = errorCode;
+    }
+}
+public String getErrorCode() {
+    return errorCode;
+}
+```
