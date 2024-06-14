@@ -64,7 +64,7 @@
 - [인텔리제이 디버깅](https://github.com/jojoldu/blog-code/tree/master/intellij-debugging)
 
 ### 네트워크
-- ICMP 와 IP, 디도스
+- [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
 - PING과 TELNET
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
