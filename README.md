@@ -67,6 +67,7 @@
 - [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
 - [PING과 TELNET](https://data-pioneer.tistory.com/4)
 - [OSI 모델](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+- [리그오브레전드 디도스 체험하기](https://byeo.tistory.com/entry/%EB%A6%AC%EA%B7%B8%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C-%EB%94%94%EB%8F%84%EC%8A%A4)
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
 - [Go를 모르는 취준생의 GopherCon Korea 2023 오프라인 참석 후기](https://velog.io/@ngngs/%EC%B7%A8%EC%A4%80%EC%83%9D%EC%9D%98-GopherCon-Korea-2023-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8-%EC%B0%B8%EC%84%9D-%ED%9B%84%EA%B8%B0)
