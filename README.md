@@ -69,6 +69,8 @@
 - [OSI 모델](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [리그오브레전드 디도스 체험하기](https://byeo.tistory.com/entry/%EB%A6%AC%EA%B7%B8%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C-%EB%94%94%EB%8F%84%EC%8A%A4)
 - [전선을 통한 데이터 송수신 심화](https://thisiswoo.github.io/development/osi-7-physical-layer.html)
+
+(정리 예정 -- 시작)
 - 1. 물리적 계층
 
 - 데이터는 0과 1이 나열된 `디지털 신호`다
@@ -79,6 +81,7 @@
 한줄요약 : physical layer는 전선과 PHY칩을 통해 0과 1의 나열된 신호를 통신하는 계층이다
 
 더 공부해보고 싶다면?https://thisiswoo.github.io/development/osi-7-physical-layer.html
+(정리 예정 -- 끝)
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
