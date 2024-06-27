@@ -68,6 +68,7 @@
 - [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
 - [PING과 TELNET](https://data-pioneer.tistory.com/4)
 - [OSI 모델](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+- [OSI 7계층](https://velog.io/@ngngs/ping%EA%B3%BC-telnet%EC%9C%BC%EB%A1%9C-%EC%8B%9C%EC%9E%91%ED%95%9C-OSI-7-Layer)
 - [리그오브레전드 디도스 체험하기](https://byeo.tistory.com/entry/%EB%A6%AC%EA%B7%B8%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C-%EB%94%94%EB%8F%84%EC%8A%A4)
 - [전선을 통한 데이터 송수신 심화](https://thisiswoo.github.io/development/osi-7-physical-layer.html)
 
