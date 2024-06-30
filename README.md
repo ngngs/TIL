@@ -72,6 +72,7 @@
 - [리그오브레전드 디도스 체험하기](https://byeo.tistory.com/entry/%EB%A6%AC%EA%B7%B8%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C-%EB%94%94%EB%8F%84%EC%8A%A4)
 - [전선을 통한 데이터 송수신 심화](https://thisiswoo.github.io/development/osi-7-physical-layer.html)
 - [ICMP ping 응답이란?](https://docs.netapp.com/ko-kr/e-series-santricity/sm-hardware/what-are-icmp-ping-responses.html)
+- [Ping, telnet, curl](https://toneyparky.tistory.com/59)
 
 
 
