@@ -57,8 +57,8 @@
 ### Algorithm
 -
 
-### 리액트
-- [2024 React 개발 가이드](https://github.com/ngngs/TIL/tree/main/React/2024%20React%20%EA%B0%9C%EB%B0%9C%20%EA%B0%80%EC%9D%B4%EB%93%9C%20) 
+### 프론트
+- 
 
 ### IDE
 - [인텔리제이 Update resources / Update classes and resources / Hot swap classes / Redeploy / Restart server](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
