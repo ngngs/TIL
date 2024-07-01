@@ -73,6 +73,7 @@
 - [전선을 통한 데이터 송수신 심화](https://thisiswoo.github.io/development/osi-7-physical-layer.html)
 - [ICMP ping 응답이란?](https://docs.netapp.com/ko-kr/e-series-santricity/sm-hardware/what-are-icmp-ping-responses.html)
 - [Ping, telnet, curl](https://toneyparky.tistory.com/59)
+- [Ping, TCP, UDP, Three-Way Handshake (What are these and how do they work)](https://www.scaler.com/topics/cyber-security/what-is-ping/)
 
 
 
