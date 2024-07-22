@@ -65,6 +65,8 @@
 ### IDE
 - [인텔리제이 Update resources / Update classes and resources / Hot swap classes / Redeploy / Restart server](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
 - [인텔리제이 디버깅](https://github.com/jojoldu/blog-code/tree/master/intellij-debugging)
+- shift + alt + 숫자 (북마크 후 코멘트)
+- shift + f11 (북마크 모아보기)
 
 ### 네트워크
 - [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
