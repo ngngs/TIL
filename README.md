@@ -77,7 +77,7 @@
 - [ICMP ping 응답이란?](https://docs.netapp.com/ko-kr/e-series-santricity/sm-hardware/what-are-icmp-ping-responses.html)
 - [Ping, telnet, curl](https://toneyparky.tistory.com/59)
 - [Ping, TCP, UDP, Three-Way Handshake (What are these and how do they work)](https://www.scaler.com/topics/cyber-security/what-is-ping/)
-- (작성예정) ping(traceroute), telnet 보기. 업무 당시 겪은 일, www.linux.co.kr, ping과 telnet이란? 복습하기 osi 7계층 중 3계층과 4계층. icmp란?, 프로토콜 짚고가기, icmp 어디 사용될까, icmp과 udp/tcp 차이(handshake), icmp 메시지 포맷, 디도스공격방식(2가지), 
+- (작성예정) ping(traceroute), telnet 보기. www.linux.co.kr, ping과 telnet이란? 복습하기 osi 7계층 중 3계층과 4계층. icmp란?, 프로토콜 짚고가기, icmp 어디 사용될까, icmp과 udp/tcp 차이(handshake), icmp 메시지 포맷, 디도스공격방식(2가지), 
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
