@@ -68,6 +68,7 @@
 - [인텔리제이 디버깅](https://github.com/jojoldu/blog-code/tree/master/intellij-debugging)
 - shift + alt + 숫자 (북마크 후 코멘트)
 - shift + f11 (북마크 모아보기)
+- 인텔리제이 LIVE TEMPLATE 기능을 이용하면, 필요한 코드 자동완성을 사용할 수 있음(SELECT를 할 때 항상 포함되어야 하는 조건이 존재한다면 LIVE TEMPLATE에 등록해두고 명령어 입력시 자동완성)
 
 ### 네트워크
 - [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
