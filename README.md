@@ -70,6 +70,7 @@
 - shift + alt + 숫자 (북마크 후 코멘트)
 - shift + f11 (북마크 모아보기)
 - 인텔리제이 LIVE TEMPLATE 기능을 이용하면, 필요한 코드 자동완성을 사용할 수 있음(SELECT를 할 때 항상 포함되어야 하는 조건이 존재한다면 LIVE TEMPLATE에 등록해두고 명령어 입력시 자동완성)
+- 인텔리제이 기본 인코딩은 x-windows-949인데 서버 방식이 UTF-8이면 로컬에서 인코딩 방식이 달라 에러가 발생함(-Dfile.encoding=UTF-8 설정을 해줘야함)
 
 ### 네트워크
 - [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
