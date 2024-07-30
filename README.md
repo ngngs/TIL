@@ -44,6 +44,7 @@
 - MyBatis를 사용할 때, 데이터베이스에서 조회해온 결과가 모든 칼럼에 대해 null인 경우, 기본적으로 매핑 대상인 VO(Value Object)가 생성되지 않습니다. 이는 MyBatis가 결과 집합을 매핑할 때, 각 컬럼의 값을 VO의 필드에 설정하고, 만약 모든 값이 null이면 VO 인스턴스를 생성하지 않는 동작 때문
 - 오라클에서 서브쿼리에 Order By, ROWNUM을 쓰려면 Order By를 처리한 후에 ROWNUM 처리를 해줘야한다
 - 오라클 SELECT은 WITH, UPDATE는 MERGE INTO USING을 사용(merge into using문은 for문 돌면서 if문이라고 생각하면됨)
+- Mybatis IN 구문을 쓰고 싶다면 FOR EACH를 써야함, 조건 IN #{LIST} 형태로 주면 타입핸들러 에러 발생
 
 ### Web
 - 
