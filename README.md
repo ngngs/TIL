@@ -37,6 +37,8 @@
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
 - tail -f : 실시간 로그 보기
+- 실시간 로그를 볼 때 tail -f "로그파일명" >> tmp.log : 명령어로 열면 tmp.log에 내가 연 시점부터 저장됨
+- :set nu : 라인 표시
 
 ### DB
 - [DB한눈에 보기](https://github.com/ngngs/TIL/tree/main/DB)
