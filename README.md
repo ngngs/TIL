@@ -21,7 +21,6 @@
 ### Java
 - [리팩토링](https://github.com/ngngs/Refactoring_excercise)
 - [김영한의 실전 자바 - 중급 1편](https://github.com/ngngs/TIL/tree/main/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98%20%EC%8B%A4%EC%A0%84%20%EC%9E%90%EB%B0%94%20-%20%EC%A4%91%EA%B8%891%ED%8E%B8)
-- 롬복 구현하기
 - [자바의 Virtual Thread](https://velog.io/@ngngs/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%99%80-%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4%EC%9D%B4-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-Java-%EA%B0%80%EC%83%81-%EC%8A%A4%EB%A0%88%EB%93%9C-%ED%98%81%EC%8B%A0)
 - [자바의 멀티쓰레드](https://woongjin.udemy.com/course/java-multi-threading/learn/lecture/30800338#overview)
 
