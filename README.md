@@ -51,11 +51,6 @@
 - 오라클 SELECT은 WITH, UPDATE는 MERGE INTO USING을 사용(merge into using문은 for문 돌면서 if문이라고 생각하면됨)
 - Mybatis IN 구문을 쓰고 싶다면 FOR EACH를 써야함, 조건 IN #{LIST} 형태로 주면 타입핸들러 에러 발생
 
-### Web
-- 
-
-### 형상관리
--
 
 ### Design Pattern
 - 싱글톤 패턴
@@ -64,8 +59,6 @@
 - 팩토리 패턴
 - 플라이웨이트 패턴
 
-### Algorithm
--
 
 ### 프론트
 - [Cypress 테스트](https://github.com/ngngs/TIL/tree/main/Cypress)
