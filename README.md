@@ -24,7 +24,7 @@
 - 롬복 구현하기
 - [자바의 Virtual Thread](https://velog.io/@ngngs/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%99%80-%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4%EC%9D%B4-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-Java-%EA%B0%80%EC%83%81-%EC%8A%A4%EB%A0%88%EB%93%9C-%ED%98%81%EC%8B%A0)
 - [자바의 멀티쓰레드](https://woongjin.udemy.com/course/java-multi-threading/learn/lecture/30800338#overview)
-- [롬복 val 사용하기](https://projectlombok.org/features/val)
+
 ### Spring
 - [김영한 로드맵 1 : 스프링 핵심원리 기본편](https://github.com/ngngs/TIL/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8)
 - [스프링 트랜잭션](https://github.com/ngngs/TIL/tree/main/DB/1.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
@@ -34,6 +34,8 @@
 - @Service(경로) 를 살펴봐야 서비스 빈이 어디에 등록되었는 지 확인할 수 있음. 간혹 위치를 옮긴 파일들이 있어서 실제 경로와 다를 수 있음
 - @SuppressWarnings("rawtypes") 를 사용하는 이유? 제너릭을 사용하는 클래스 매개 변수가 불특정일 때의 경고
 - 크론표현식(배치)
+- [롬복 val 사용하기](https://projectlombok.org/features/val)
+- [롬복 실무 사용법](https://github.com/cheese10yun/blog-sample/tree/master/lombok)
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
