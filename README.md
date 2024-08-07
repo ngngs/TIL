@@ -35,6 +35,7 @@
 - 크론표현식(배치)
 - [롬복 val 사용하기](https://projectlombok.org/features/val)
 - [롬복 실무 사용법](https://github.com/cheese10yun/blog-sample/tree/master/lombok)
+- 컴파일이 된 코드를 보고 싶다면, target(maven)/build(gradle)의 동일한 위치로 가면 컴파일된 자바 파일을 확인할 수 있음
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
