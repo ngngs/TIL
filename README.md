@@ -42,6 +42,7 @@
 - tail -f : 실시간 로그 보기
 - 실시간 로그를 볼 때 tail -f "로그파일명" >> tmp.log : 명령어로 열면 tmp.log에 내가 연 시점부터 저장됨
 - :set nu : 라인 표시
+- [MobaXTerm](https://inpa.tistory.com/entry/MobaXterm-%F0%9F%92%BD-%EB%AA%A8%EB%B0%94%EC%97%91%EC%8A%A4%ED%85%80-%EC%84%A4%EC%B9%98-%ED%95%9C%EA%B8%80%ED%99%94-SSH-%EC%A0%91%EC%86%8D-%EB%B0%A9%EB%B2%95-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC)
 
 ### DB
 - [DB한눈에 보기](https://github.com/ngngs/TIL/tree/main/DB)
@@ -82,7 +83,6 @@
 - [Ping, telnet, curl](https://toneyparky.tistory.com/59)
 - [Ping, TCP, UDP, Three-Way Handshake (What are these and how do they work)](https://www.scaler.com/topics/cyber-security/what-is-ping/)
 -  ping(traceroute), telnet 보기. www.linux.co.kr, ping과 telnet이란? 복습하기 osi 7계층 중 3계층과 4계층. icmp란?, 프로토콜 짚고가기, icmp 어디 사용될까, icmp과 udp/tcp 차이(handshake), icmp 메시지 포맷, 디도스공격방식(2가지)
-- 로컬 -> 베스쳔 -> 타겟서버 순(SSH 터널링), mobaXterm 이용
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
