@@ -22,6 +22,7 @@
 ## 문제 해결
 1. 테이블 인덱싱 처리
 2. FULL SCAN 일어나고 있는 테이블들의 인덱싱이 이미 되어 있다면 ANALYZE를 통해 통계 정보 생성 (ANALYZE TABLE 테이블명 COMPUTE STATISTICS)
+3. +HINT
 
 
 ### 해당 과정에서 배운 것들 및 조언들
