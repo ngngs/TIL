@@ -17,6 +17,7 @@
 - 운영체제 아주 쉬운 세 가지 이야기
 - 이펙티브자바
 - 헤드퍼스트 디자인 패턴
+- 컴퓨터 밑바닥의 비밀
 
 ### Java
 - [리팩토링](https://github.com/ngngs/Refactoring_excercise)
