@@ -65,6 +65,7 @@
 
 ### 프론트
 - [Cypress 테스트](https://github.com/ngngs/TIL/tree/main/Cypress)
+- FailOver
 
 ### IDE
 - [인텔리제이 Update resources / Update classes and resources / Hot swap classes / Redeploy / Restart server](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
