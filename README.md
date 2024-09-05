@@ -63,7 +63,7 @@
 - 데코레이터 패턴
 - 팩토리 패턴
 - 플라이웨이트 패턴
-- [유지보수를 고려한 유연한 팩토리 구현](https://mangkyu.tistory.com/252)
+- [유지보수를 고려한 유연한 팩토리 구현](https://mangkyu.tistory.com/252) .. 내부 초기화 안 해줘도 작동하는 지 확인해보기
 
 ### 프론트
 - [Cypress 테스트](https://github.com/ngngs/TIL/tree/main/Cypress)
