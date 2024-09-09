@@ -88,6 +88,7 @@
 - [Ping, telnet, curl](https://toneyparky.tistory.com/59)
 - [Ping, TCP, UDP, Three-Way Handshake (What are these and how do they work)](https://www.scaler.com/topics/cyber-security/what-is-ping/)
 - [API Polling 말고 방법이 없나? Webhook의 등장](https://docs.tosspayments.com/resources/glossary/webhook)
+- 요청이 너무 많아서 API 호출이 안된걸까.. 문제의 원인이 뭐지(FAILOVER)
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
