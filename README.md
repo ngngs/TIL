@@ -92,6 +92,7 @@
 
 ### 그외
 - API 요청 만들 때, Header에 있는 것들 담아보내기(Cookie, Accept-Encoding, Content-type 꼭 확인)
+- API 요청 시, 헤더와 바디의 구분은 개행문자 2번(빈줄)
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
