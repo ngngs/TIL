@@ -90,6 +90,9 @@
 - [API Polling 말고 방법이 없나? Webhook의 등장](https://docs.tosspayments.com/resources/glossary/webhook)
 - 요청이 너무 많아서 API 호출이 안된걸까.. 문제의 원인이 뭐지(FAILOVER)
 
+### 그외
+- API 요청 만들 때, Header에 있는 것들 담아보내기(Cookie, Accept-Encoding, Content-type 꼭 확인)
+
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
 - [Go를 모르는 취준생의 GopherCon Korea 2023 오프라인 참석 후기](https://velog.io/@ngngs/%EC%B7%A8%EC%A4%80%EC%83%9D%EC%9D%98-GopherCon-Korea-2023-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8-%EC%B0%B8%EC%84%9D-%ED%9B%84%EA%B8%B0)
