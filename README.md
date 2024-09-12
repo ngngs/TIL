@@ -39,6 +39,7 @@
 - [롬복 실무 사용법](https://github.com/cheese10yun/blog-sample/tree/master/lombok)
 - 컴파일이 된 코드를 보고 싶다면, target(maven)/build(gradle)의 동일한 위치로 가면 컴파일된 자바 파일을 확인할 수 있음
 - [다양한 생성자 주입과 현재 스프링 추세](https://mangkyu.tistory.com/125)
+- 트랜잭션 처리와 try-catch로 에러를 던질 때 같이 봐야 함. 무조건 catch해서 처리해줬다고 트랜잭션 롤백이 안 일어나는게 아님
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
