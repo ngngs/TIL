@@ -39,6 +39,7 @@
 - [롬복 실무 사용법](https://github.com/cheese10yun/blog-sample/tree/master/lombok)
 - 컴파일이 된 코드를 보고 싶다면, target(maven)/build(gradle)의 동일한 위치로 가면 컴파일된 자바 파일을 확인할 수 있음
 - [다양한 생성자 주입과 현재 스프링 추세](https://mangkyu.tistory.com/125)
+- [SpringBoot Async 처리 기본](https://adjh54.tistory.com/544)
 - [비동기 처리 시 주의해야 할 점](https://dkswnkk.tistory.com/706)
 
 ### 리눅스
