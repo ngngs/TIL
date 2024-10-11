@@ -44,6 +44,7 @@
 - [SpringBoot Async 처리 기본](https://adjh54.tistory.com/544)
 - [비동기 처리 시 주의해야 할 점](https://dkswnkk.tistory.com/706)
 - [실무 Lombok 사용 시 주의사항](https://kwonnam.pe.kr/wiki/java/lombok/pitfall)
+- setter를 어딘가는 열어주고 어딘가는 반드시 막아야하는데 어떻게 할 수 있을까..
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
