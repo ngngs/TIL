@@ -167,8 +167,10 @@ LDC "xy"
 ARETURN
 ```
 ## 주의 : 실제로 지역변수에 `final`을 추가했다고 해서 실제 성능은 큰 차이가 나지 않는다
+
 ## 결론 : 디자인 선택을 적용하기 위해 `final` 을 선택하다는 근거는 합당하다. 정말 성능 차이 때문이라기엔.. 그렇게 차이가 안난다
---
+
+
 
 Reference
 1. [The “final” Keyword in Java](https://www.baeldung.com/java-final)
