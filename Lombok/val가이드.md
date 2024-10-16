@@ -10,7 +10,7 @@
 - 지역 변수(local variable)를 선언할 때 val 을 사용하면, 컴파일 타임 시 지역변수의 타입을 추론한다
 - val의 역할은 곧 `final 선언` 및 `타입 추론`이다
 
-## 질문) (final 선언은 왜 해줘야 하나요?)[https://github.com/ngngs/TIL/blob/main/Java/final.md]
+## 질문) [final 선언은 왜 해줘야 하나요?](https://github.com/ngngs/TIL/blob/main/Java/final.md)
 
 ```java
 // with Lombok.val
