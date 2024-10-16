@@ -12,7 +12,7 @@ Lombok은 val을 이용하여, 비효율적으로 작성하던 코드들을 제�
 <br>
 val의 역할은 곧 `final 선언` 및 `타입 추론`이다
 
-질문) final 선언은 왜 해줘야 하나요?
+질문) (final 선언은 왜 해줘야 하나요?)[https://github.com/ngngs/TIL/blob/main/Java/final.md]
 
 ```java
 // with Lombok.val
