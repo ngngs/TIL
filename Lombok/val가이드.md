@@ -10,8 +10,6 @@
 - 지역 변수(local variable)를 선언할 때 val 을 사용하면, 컴파일 타임 시 지역변수의 타입을 추론한다
 - val의 역할은 곧 `final 선언` 및 `타입 추론`이다
 
-## 질문) [final 선언은 왜 해줘야 하나요?](https://github.com/ngngs/TIL/blob/main/Java/final.md)
-
 ```java
 // with Lombok.val
 val example = new ArrayList<String>();
@@ -24,6 +22,7 @@ final ArrayList<String> example = new ArrayList<String>();
 example.add("Hello, World!");
 final String foo = example.get(0);
 ```
+## 질문) [final 선언은 왜 해줘야 하나요?](https://github.com/ngngs/TIL/blob/main/Java/final.md)
 ## 질문. .class 파일을 봤는데 getter, setter 어노테이션과 다르게 final이 없는데요?
 1) getter, setter는 컴파일 시점에 해당 코드를 생성한다
 2) val는 컴파일 시점에 해당 변수가 final처럼 작동하게 한다(재선언하려면 에러가 발생해 컴파일 자체가 되지 않는다)
