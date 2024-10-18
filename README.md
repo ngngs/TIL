@@ -26,6 +26,7 @@
 - [자바의 멀티쓰레드](https://woongjin.udemy.com/course/java-multi-threading/learn/lecture/30800338#overview)
 - [자바8 인액션](https://github.com/cheese10yun/TIL/blob/master/JAVA/%EC%9E%90%EB%B0%948-%EC%9D%B8%EC%95%A1%EC%85%98.md) - 읽어보고 정리하기
 - [Final..진짜 final](https://github.com/ngngs/TIL/blob/main/Java/final.md)
+- [Virtual Thread의 기본 개념 이해하기](https://d2.naver.com/helloworld/1203723)
 
 
 ### Spring
