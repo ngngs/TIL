@@ -71,6 +71,7 @@
 - 팩토리 패턴
 - 플라이웨이트 패턴
 - [유지보수를 고려한 유연한 팩토리 구현](https://mangkyu.tistory.com/252)
+- [if-else 지옥](https://velog.io/@dolfalf/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81-%EC%A1%B0%EA%B1%B4%EB%AC%B8%EC%A7%80%EC%98%A5-%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0-if-else-if-else)
 
 ### 프론트
 - [Cypress 테스트](https://github.com/ngngs/TIL/tree/main/Cypress)
