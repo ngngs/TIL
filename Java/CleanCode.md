@@ -8,16 +8,50 @@
 
 ---
 
-# 1. 다른 개발자들을 놀래키지 말자
+# 우리가 마주하는 코드는
 - 새로운 코드를 마주했을 때, 대부분의 개발자는 다음의 감정을 느낀다
 - 두려움, 흥분, 놀라움, 분노, 그리고 `좌절`
-- 흔히 *레거시 코드* 라 부르는 코드는 아무도 건드리고 싶지도 않고 모두가 두려워한다
-- 시간이 지나면서 비즈니스 로직은 계속 변화하고, 요구 사항이 바뀌며 (절대 그런 값은 안 들어온다며 당부했던 부분들이 바뀌면 더더욱) 변경 가능성을 고려했던 코드였음에도 도저히 읽기 어려운 `서비스 코드`들을 마주한다
+- 흔히 *레거시 코드* 라 부르는 코드는 아무도 건드리고 싶지 않고 모두가 두려워한다
+- 시간이 지나면서 비즈니스 로직은 계속 변화하고, 요구 사항은 바뀐다
+- (절대 그런 값은 안 들어온다며 당부했던 부분들이 바뀌면) 변경 가능성을 고려했던 코드였음에도 도저히 읽기 어려운 `서비스 코드`들을 마주한다
 - 다행히도 우리 회사만의 문제는 아니었고 정말 대다수의 개발자들이 엉망이 되는 코드들을 마주한다고 한다 (다행인가?)
 
-## 1-1. 복잡한 서비스 코드
+## 적절하지 않은 메서드명
+- 다음 서비스의 메서드를 보고 우리는 무엇을 하려는 지 예측할 수 없어 코드를 처음부터 끝까지 읽어봐야 한다
+- 심지어, 해당 메서드가 메서드명과 다른 역할을 수행한다면 혼란에 빠질 수 밖에 없다
+```java
+public class SendService {
+
+    public void sendSms(String msg) {
+        // SMS를 보내는 것처럼 보이지만 실제로는 파일에 로그를 저장
+        saveLogToFile("SMS message logged: " + msg);
+    }
+
+    private void saveLogToFile(String log) {
+        // 파일에 로그를 저장하는 메서드
+        System.out.println("Saving log to file: " + log);
+    }
+}
+```
+- 해당 메서드들은 코드가 짧아 적절한 메서드명으로 변경할 수 있었지만, 만약 해당 서비스를 Call하는 부분이 많다면 모두 찾아줘야 하기 때문에 쉽지 않다는 걸 깨달았다..
+```java
+public class SendService {
+
+    // SMS 메시지를 파일에 기록하는 메서드
+    public void logSmsMessage(String msg) {
+        saveLogToFile("SMS message logged: " + msg);
+    }
+
+    private void saveLogToFile(String log) {
+        // 파일에 로그를 저장하는 메서드
+        System.out.println("Saving log to file: " + log);
+    }
+}
+
+```
+## 복잡한 서비스 코드(if, else-if)
 - 내가 만났던 복잡한 서비스 코드 중 하나는 if, else-if 코드였다
-- 예시 상황을 만들기 위해, 우리는 메시지를 전송하는 서비스를 만들고 있다고 하자
+- 우리는 메시지를 전송하는 서비스를 만들고 있다고 가정하자
 - 메시지 전송 서비스는 `긴급발송`과 `일반발송` 두 가지 기능이 있다
 ```java
 public class SendService {
@@ -42,6 +76,36 @@ public class SendService {
         // 일반 발송
         else {
            ...
+        }
+    }
+}
+
+```
+- 1. 상수들을 IMPORT를 통해 가독성을 높혀주었다
+- 2. 모듈화를 통해, 코드의 가독성을 높혀주었다
+```java
+import static Constants.SENDTYPE.*;
+import static Constants.TYPE.*;
+
+public class SendService {
+
+    public void send(String msg, String type, String sendType) {
+        if (URGENT.equals(sendType)) {
+            sendUrgentMessage(msg, type);
+        } else {
+            sendGeneralMessage(msg, type);
+        }
+    }
+
+    private void sendUrgentMessage(String msg, String type) {
+        if (EMAIL.equals(type)) {
+            sendUrgentEmail(msg);
+        } else if (SMS.equals(type)) {
+            sendUrgentSms(msg);
+        } else if (NOTIFICATION.equals(type)) {
+            sendUrgentNotification(msg);
+        } else {
+            System.out.println("Unknown type for urgent message.");
         }
     }
 }
