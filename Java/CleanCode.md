@@ -81,8 +81,8 @@ public class SendService {
 }
 
 ```
-- 1. 상수들을 IMPORT를 통해 가독성을 높혀주었다
-- 2. 모듈화를 통해, 코드의 가독성을 높혀주었다
+1. 상수들을 IMPORT를 통해 가독성을 높혀주었다
+2. 모듈화를 통해, 코드의 가독성을 높혀주었다
 ```java
 import static Constants.SENDTYPE.*;
 import static Constants.TYPE.*;
