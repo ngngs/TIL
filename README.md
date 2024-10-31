@@ -45,6 +45,7 @@
 - [SpringBoot Async 처리 기본](https://adjh54.tistory.com/544)
 - [비동기 처리 시 주의해야 할 점](https://dkswnkk.tistory.com/706)
 - [실무 Lombok 사용 시 주의사항](https://kwonnam.pe.kr/wiki/java/lombok/pitfall)
+- [Spring batch 만들기](https://github.com/jojoldu/spring-batch-in-action)
 
 ### 리눅스
 - 리눅스 명령어 통해 서버 올리기, 내리기
