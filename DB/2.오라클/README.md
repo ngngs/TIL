@@ -12,4 +12,4 @@ https://gibles-deepmind.tistory.com/entry/Oracle-SQL-JOIN%EC%8B%9C-WHERE-%EC%A0%
 - 실수했던 부분 : Select test1, test2, test3 from TableA group by test1, test2, test3 인 코드를 보고 test4를 추가하는 과정에서 합산(sum)해야 할 test4를 group by에 넣어버림. 해당 문제로 join에서 다중행이 생성되어 버렸는데 문제 원인을 놓쳤음.. 해당 부분은 Sum(test4) 로 조회해주고 group by에서는 빼면 됨!
 - [오라클 성능 분석과 인스턴스 튜닝 핵심 가이드](https://www.inflearn.com/course/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%84%B1%EB%8A%A5-%EB%B6%84%EC%84%9D?attributionToken=pgHwpQoMCKTVnbkGELz79rcCEAEaJDY3MmNkNWE4LTAwMDAtMjUzMC1iMTljLTNjMjg2ZDQ3MzYzMiokZGRkMjRkZDItNzAyYy00ZTk0LThmNDgtNWMzMTIyNWI1MTI2MjC3t4wtqOWqLcXL8xfC8J4Vo4CXIo6-nRXUsp0VkPeyMI6RyTCf1rctmu7GMJzWty06DmRlZmF1bHRfc2VhcmNoSAFoAXoCc2k)
 - [오라클 기초](https://www.youtube.com/watch?v=dqcOa-fVWWo&list=PLuHgQVnccGMB5q5uJIDhLlcC2V6tyXhY6)
--[오라클 중급문법](https://13months.tistory.com/585)
+- [오라클 중급문법](https://13months.tistory.com/585)
