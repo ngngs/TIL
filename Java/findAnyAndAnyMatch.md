@@ -44,7 +44,7 @@ public void whenParallelStreamUsingFindAny_thenOK() {
 - 순서 보장 안됨 : 병렬로 데이터를 처리하기 때문에 작업 순서가 보장되지 않음. 순서가 중요한 경우 병렬 스트림 사용 X
 - Fork/Join Framework 사용 : 내부적으로 Fork/Join Framework를 사용해 작업을 분할하고 병합. 각 서브태스크가 서로 독립적이라면 병렬 처리가 효과적
 - 코드 간소화 : 명시적으로 쓰레드 풀을 관리하거나 쓰레드를 생성하지 않아도 되므로, 병렬 처리를 코드 한 줄로 쉽게 작성
-- 
+
 
 # anyMatch()
 - anyMatch() 메서드는 Stream의 요소 중 하나라도 주어진 조건(Predicate)을 만족하는지 확인하는 데 사용
