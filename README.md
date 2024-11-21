@@ -102,6 +102,7 @@
 - API 요청 만들 때, Header에 있는 것들 담아보내기(Cookie, Accept-Encoding, Content-type 꼭 확인)
 - API 요청 시, 헤더와 바디의 구분은 개행문자 2번(빈줄)
 - [좋은리팩토링vs나쁜리팩토링](https://ykss.netlify.app/translation/good_refactoring_vs_bad_refactoring/)
+- UTF-8 인코딩 시 NFC 방식과 NFD 방식의 차이(태국어 처리)
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
