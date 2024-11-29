@@ -73,6 +73,7 @@
 - 플라이웨이트 패턴
 - [유지보수를 고려한 유연한 팩토리 구현](https://mangkyu.tistory.com/252)
 - [if-else 패턴](https://velog.io/@dolfalf/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81-%EC%A1%B0%EA%B1%B4%EB%AC%B8%EC%A7%80%EC%98%A5-%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0-if-else-if-else)
+- [정적 팩토리 메서드 패턴](https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EC%A0%95%EC%A0%81-%ED%8C%A9%ED%86%A0%EB%A6%AC-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%83%9D%EC%84%B1%EC%9E%90-%EB%8C%80%EC%8B%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90)
 
 ### 프론트
 - [Cypress 테스트](https://github.com/ngngs/TIL/tree/main/Cypress)
