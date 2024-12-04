@@ -23,7 +23,7 @@ WHERE ROWNUM > 1; -- 불가능
 
 ---
 
-# FETCH
+# FETCH FIRST
 
 ## 특징 및 정의
 - FETCH FIRST는 SQL 표준 방식으로 Oracle 12c 이상에서 지원되며, 지정된 개수의 행을 가져오는 기능입니다
