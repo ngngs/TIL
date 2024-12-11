@@ -34,11 +34,6 @@
 ### Spring
 - [김영한 로드맵 1 : 스프링 핵심원리 기본편](https://github.com/ngngs/TIL/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8)
 - [스프링 트랜잭션](https://github.com/ngngs/TIL/tree/main/DB/1.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
-- Exception 발생 시 익셉션을 어떻게 처리하는지(sysException, bizException 핸들링 확인하기) -> @ExceptionHandler와 @ControllerAdvice 이해하기
-- XSSFilter, SessionFilter 처리 및 디버깅 화면에서 확인 가능한 "http-nio-18080-exec-3"@12,136 in group "main" : RUNNING은 스레드의 상태와 관련된 정보
-- http-nio-18080-exec-3는 스레드명, 12,136은 메모리 주소, "main" 그룹에 속한 스레드
-- @Service(경로) 를 살펴봐야 서비스 빈이 어디에 등록되었는 지 확인할 수 있음. 간혹 위치를 옮긴 파일들이 있어서 실제 경로와 다를 수 있음
-- @SuppressWarnings("rawtypes") 를 사용하는 이유? 제너릭을 사용하는 클래스 매개 변수가 불특정일 때의 경고
 - [롬복 val 사용하기](https://projectlombok.org/features/val)
 - [롬복 실무 사용법](https://github.com/cheese10yun/blog-sample/tree/master/lombok)
 - 컴파일이 된 코드를 보고 싶다면, target(maven)/build(gradle)의 동일한 위치로 가면 컴파일된 자바 파일을 확인할 수 있음
