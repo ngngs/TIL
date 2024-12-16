@@ -35,6 +35,7 @@
 - [김영한 로드맵 1 : 스프링 핵심원리 기본편](https://github.com/ngngs/TIL/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8)
 - [스프링 트랜잭션](https://github.com/ngngs/TIL/tree/main/DB/1.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
 - [롬복 val 사용하기](https://projectlombok.org/features/val)
+- [롬복 Bob now knows his ancestors: Builders with fields from superclasses, too.](https://projectlombok.org/features/experimental/SuperBuilder)
 - [롬복 실무 사용법](https://github.com/cheese10yun/blog-sample/tree/master/lombok)
 - 컴파일이 된 코드를 보고 싶다면, target(maven)/build(gradle)의 동일한 위치로 가면 컴파일된 자바 파일을 확인할 수 있음
 - [다양한 생성자 주입과 현재 스프링 추세](https://mangkyu.tistory.com/125)
