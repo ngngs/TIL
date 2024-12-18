@@ -60,6 +60,9 @@
 - Mybatis IN 구문을 쓰고 싶다면 FOR EACH를 써야함, 조건 IN #{LIST} 형태로 주면 타입핸들러 에러 발생
 - [ORA-01653](https://bangu4.tistory.com/152) : TableSpace에서 확장 할 수 없습니다. => 테이블 스페이스 확인 후, 처리해줘야함
 
+### Flutter
+- [AWS와 플러터](https://aws.amazon.com/ko/what-is/flutter/)
+
 
 ### Design Pattern
 - 싱글톤 패턴
