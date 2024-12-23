@@ -79,6 +79,7 @@
 ### 프론트
 - [Cypress 테스트](https://github.com/ngngs/TIL/tree/main/Cypress)
 - FailOver
+- [IT 실무 필수 툴, 피그마 제대로 학습하는 법](https://spartacodingclub.kr/blog/figma_class)
 
 ### IDE
 - [인텔리제이 Update resources / Update classes and resources / Hot swap classes / Redeploy / Restart server](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
