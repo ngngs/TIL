@@ -110,6 +110,7 @@
 - [좋은리팩토링vs나쁜리팩토링](https://ykss.netlify.app/translation/good_refactoring_vs_bad_refactoring/)
 - UTF-8 인코딩 시 NFC 방식과 NFD 방식의 차이(태국어 처리)
 - [좋은로그란?](https://speakerdeck.com/devinjeon/jamag-ndc19-joheun-rogeuran-mueosinga-joheun-rogeureul-wihae-goryeohaeya-hal-geosdeul?slide=3)
+- [공모전 씽굿](https://www.thinkcontest.com/thinkgood/index.do#PxyyoRLHIcgvNg6HiHNz_mp_cuclMrohRDGEjn6hvDsggetrTQxNWBBQR1mPnaRxjI93xVlR_kFjCl9g5hFBO1N6UGMkDhLA2ecFAf6UhFU)
 
 
 ## 👩‍🏫👨‍🏫 컨퍼런스
