@@ -29,6 +29,7 @@
 - [Final..진짜 final](https://github.com/ngngs/TIL/blob/main/Java/final.md)
 - [Virtual Thread의 기본 개념 이해하기](https://d2.naver.com/helloworld/1203723)
 - [Virtual Thread 공식 문서](https://openjdk.org/jeps/444)
+- [serialVersionUID 를 선언하던데 이게 뭘까요? 직렬화, 역직렬화요..?](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A7%81%EB%A0%AC%ED%99%94Serializable-%EC%99%84%EB%B2%BD-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0)
 
 
 ### Spring
