@@ -69,3 +69,21 @@ public class DiscountHelper {
         return price - (price * discount);
     }
 }
+
+### Util 클래스
+```java
+public final class StringUtils {
+
+    private StringUtils() {
+        throw new UnsupportedOperationException("Cannot instantiate utility class");
+    }
+
+    public static String reverse(String input) {
+        if (input == null) {
+            throw new IllegalArgumentException("Input cannot be null");
+        }
+        return new StringBuilder(input).reverse().toString();
+    }
+}
+
+```
