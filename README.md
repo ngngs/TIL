@@ -94,6 +94,7 @@
 - [인텔리제이 .properties 파일 한글이 다 깨지는 이유와 해결 방법](https://ifuwanna.tistory.com/291)
 - [인텔리제이 LiveTemplate 만들기](https://velog.io/@max9106/IntelliJ-Live-Template)
 - [인텔리제이 LiveTemplate 공식가이드](https://www.jetbrains.com/help/idea/using-live-templates.html#live_templates_types)
+- [인텔리제이 http 형상관리](https://sihyung92.oopy.io/etc/intellij/2)
 
 ### 네트워크
 - [ICMP 와 IP, 디도스](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/internet-control-message-protocol-icmp/)
