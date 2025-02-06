@@ -1,8 +1,8 @@
 # IntelliJ .http 파일 사용법
 
-## 1. IntelliJ .http 기능이란?
-IntelliJ IDEA의 `.http` 파일은 **HTTP Client** 기능을 활용하여 HTTP 요청을 작성하고 실행할 수 있는 기능입니다.  
-Postman과 같은 API 테스트 도구의 역할을 하며, 코드와 함께 API 요청을 관리할 수 있습니다.
+## 1. IntelliJ .http 기능
+IntelliJ IDEA의 `.http` 파일은 **HTTP Client** 기능을 활용하여 HTTP 요청을 작성하고 실행할 수 있는 기능
+Postman과 같은 API 테스트 도구의 역할을 하며, 코드와 함께 API 요청을 관리
 
 ### 주요 기능
 - HTTP 요청을 `.http` 파일에 작성하고 실행 가능
@@ -92,24 +92,12 @@ IntelliJ의 **JetBrains HTTP Client CLI**를 활용하여 CI/CD에서 API 테스
 
 ## 4. IntelliJ .http 파일의 형상 관리
 
-### ✅ Git과 연동 가능
+### Git과 연동 가능
 - `.http` 파일은 일반 텍스트 파일이므로 Git에 커밋하여 **버전 관리 가능**
 - API 요청 변경 이력을 추적할 수 있음
 
-### ✅ 개발 팀 내 공유 가능
+### 개발 팀 내 공유 가능
 - `.http` 파일을 저장소에 올려두면 팀원들이 Postman 없이 바로 실행 가능
 - `.env` 파일은 `.gitignore` 처리하여 보안 유지 (`.env.example` 제공)
 
-### ✅ CI/CD와 연계 가능
-- API 테스트를 자동화하여 **배포 전에 API 정상 동작 여부 확인**
-- GitHub Actions, Jenkins 등에서 실행 가능
-
 ---
-
-## ✅ 정리
-- **IntelliJ `.http` 파일**은 Postman과 비슷한 기능을 하지만 **형상 관리(Git 연동)와 개발 흐름 유지에 강점**이 있음
-- **환경 변수 활용, 자동화 CLI 연계, 테스트 시나리오 구성** 등을 통해 효율적으로 사용할 수 있음
-- **Postman이 UI 중심이라 편리한 반면, IntelliJ `.http`는 텍스트 기반이라 개발자 친화적**
-- **형상 관리 및 CI/CD 연동이 필요하면 IntelliJ `.http`가 유리**
-
-IntelliJ에서 `.http` 파일을 잘 활용하면 API 테스트를 더 편리하게 관리할 수 있습니다. 🚀
