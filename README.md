@@ -107,9 +107,11 @@
 - [Ping, TCP, UDP, Three-Way Handshake (What are these and how do they work)](https://www.scaler.com/topics/cyber-security/what-is-ping/)
 - [API Polling 말고 방법이 없나? Webhook의 등장](https://docs.tosspayments.com/resources/glossary/webhook)
 
+
 ### 그외
 - API 요청 만들 때, Header에 있는 것들 담아보내기(Cookie, Accept-Encoding, Content-type 꼭 확인)
 - API 요청 시, 헤더와 바디의 구분은 개행문자 2번(빈줄)
+- [JWT 공식](https://jwt.io/introduction)
 - [좋은리팩토링vs나쁜리팩토링](https://ykss.netlify.app/translation/good_refactoring_vs_bad_refactoring/)
 - UTF-8 인코딩 시 NFC 방식과 NFD 방식의 차이(태국어 처리)
 - [좋은로그란?](https://speakerdeck.com/devinjeon/jamag-ndc19-joheun-rogeuran-mueosinga-joheun-rogeureul-wihae-goryeohaeya-hal-geosdeul?slide=3)
